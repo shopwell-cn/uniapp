@@ -12,7 +12,7 @@ import { ref } from "vue";
 import { onLoad } from "@dcloudio/uni-app";
 import { createAPIClient } from "@/app/api-client";
 
-const title = ref("Hellod");
+const title = ref("Hello000");
 
 const api = createAPIClient({
   baseURL: "http://127.0.0.1:8083/store-api",
