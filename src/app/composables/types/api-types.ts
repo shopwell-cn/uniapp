@@ -2,7 +2,7 @@ import type { createAPIClient } from "@/app/api-client";
 import type {
   components as defaultComponents,
   operations as defaultOperations,
-} from "../../../../api-types/storeApiTypes";
+} from "@/api-types/storeApiTypes";
 
 export type operations = defaultOperations;
 

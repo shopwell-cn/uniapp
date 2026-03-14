@@ -12,7 +12,7 @@ import {ref} from "vue";
 import {onLoad} from "@dcloudio/uni-app";
 import {useShopwellContext} from "@/app/composables/useShopwellContext/useShopwareContext";
 
-const title = ref("Hello000");
+const title = ref("0000");
 
 const {apiClient} = useShopwellContext();
 

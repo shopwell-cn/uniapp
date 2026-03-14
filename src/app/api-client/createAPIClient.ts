@@ -1,6 +1,6 @@
 import defu from "defu";
 import { createHooks } from "hookable";
-import type { operations } from "../../../api-types/storeApiTypes";
+import type { operations } from "@/api-types/storeApiTypes";
 import { type ClientHeaders, createHeaders } from "@/app/api-client/defaultHeaders";
 import { createPathWithParams } from "@/app/api-client/transformPathToQuery";
 import { errorInterceptor } from "@/app/api-client/errorInterceptor";
