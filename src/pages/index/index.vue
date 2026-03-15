@@ -12,7 +12,7 @@ import {ref} from "vue";
 import {onLoad} from "@dcloudio/uni-app";
 import {useShopwellContext} from "@/app/composables/useShopwellContext/useShopwareContext";
 
-const title = ref("0000");
+const title = ref("00020");
 
 const {apiClient} = useShopwellContext();
 
@@ -24,6 +24,9 @@ const loadCart = async () => {
         console.error("[cart] request failed", error);
     }
 };
+
+
+
 
 onLoad(() => {
     void loadCart();

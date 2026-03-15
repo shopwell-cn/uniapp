@@ -53,9 +53,10 @@
     "@dcloudio/uni-mp-weixin": "3.0.0-alpha-5000320260310001",
     "@dcloudio/uni-mp-xhs": "3.0.0-alpha-5000320260310001",
     "@dcloudio/uni-quickapp-webview": "3.0.0-alpha-5000320260310001",
+    "@vueuse/core": "^14.2.1",
     "defu": "^6.1.4",
     "hookable": "^6.0.1",
-    "vue": "3.4.21",
+    "vue": "3.5.24",
     "vue-i18n": "9.14.5"
   },
   "devDependencies": {
